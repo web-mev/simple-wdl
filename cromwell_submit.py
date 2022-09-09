@@ -7,7 +7,7 @@ import time
 # Inputs/constants:
 
 # "http://<ip or hostname>:<port>"
-CROMWELL_HOST = ''
+CROMWELL_HOST = sys.argv[1]
 
 # relative path to the "main" WDL file
 # and the inputs.json
